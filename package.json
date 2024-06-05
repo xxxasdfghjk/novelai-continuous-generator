@@ -1,8 +1,8 @@
 {
-  "name": "novelai-prompt-manager",
-  "displayName": "Novelai prompt manager",
-  "version": "0.0.1",
-  "description": "support prompt management",
+  "name": "novelai-generate-support",
+  "displayName": "NovelAI Continuous Genration Supporter",
+  "version": "1.0.0",
+  "description": "support continuous generation",
   "author": "xxxasdfghjk",
   "scripts": {
     "dev": "plasmo dev",
@@ -10,10 +10,21 @@
     "package": "plasmo package"
   },
   "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.19",
+    "@plasmohq/storage": "^1.10.0",
+    "@types/react-modal": "^3.16.3",
+    "@uidotdev/usehooks": "^2.4.1",
     "plasmo": "0.86.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.4.1"
+    "react-modal": "^3.16.1",
+    "react-modern-drawer": "^1.3.1",
+    "react-toastify": "^10.0.5",
+    "tailwindcss": "3.4.1",
+    "usehooks-ts": "^3.1.0"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "4.1.1",
@@ -22,7 +33,7 @@
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
     "postcss": "8.4.33",
-    "prettier": "3.2.4",
+    "prettier": "^3.3.0",
     "typescript": "5.3.3"
   },
   "manifest": {
